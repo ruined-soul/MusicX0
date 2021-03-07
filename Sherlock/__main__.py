@@ -23,6 +23,7 @@ owner_help = """
 /broadcast message to send
 /eval python code
 /chatlist get list of all chats
+/gitpull pulls changes from github
 """
 
 
