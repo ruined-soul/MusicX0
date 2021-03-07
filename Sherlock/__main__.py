@@ -11,8 +11,8 @@ from Sherlock.sql.chat_sql import add_chat_to_db
 
 start_text = """
 Hey [{}](tg://user?id={}),
-I'm [Alexa🎶](https://telegra.ph/file/dbed7ae52ae9e91261abc.jpg)
-I'm a music bot created by @mr_srlock.
+I'm [Player 🎧](https://telegra.ph/file/dbed7ae52ae9e91261abc.jpg)
+I'm a music bot created by @ruined_soul.
 Just send me the song name you want to download.
 Eg: ```/song Love me like you do```
 """
@@ -36,7 +36,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="💫 Add alexa in your group 💫", url="http://t.me/Xalexa_robot?startgroup=true"
+                        text="💫 Add Player 🎧 in your group 💫", url="http://t.me/MusicX0?startgroup=true"
                     )
                 ]
             ]
@@ -55,7 +55,7 @@ async def help(client, message):
     text = "Syntax: /song song name"
     await message.reply(text)
 
-OWNER_ID.append(1587091205)
+OWNER_ID.append(1159381624)
 app.start()
 LOGGER.info("Your bot is now online.")
 idle()
